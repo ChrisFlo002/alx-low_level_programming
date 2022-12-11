@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE1 -o puts
+gcc -c $CFILE1 -o puts
