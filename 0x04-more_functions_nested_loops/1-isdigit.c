@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /*
 *function - cheks is a digit
