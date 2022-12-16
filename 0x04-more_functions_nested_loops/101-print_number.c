@@ -51,6 +51,12 @@ void print_number(int n)
 				_putchar('1');
 				_putchar('4');
 				_putchar('7');
+				_putchar('4');
+				_putchar('8');
+				_putchar('3');
+				_putchar('6');
+				_putchar('4');
+				_putchar('7');
 				break;
 			}
 			else if (n == INT_MIN)
@@ -59,6 +65,12 @@ void print_number(int n)
 				_putchar('1');
 				_putchar('4');
 				_putchar('7');
+				_putchar('4');
+				_putchar('8');
+				_putchar('3');
+				_putchar('6');
+				_putchar('4');
+				_putchar('8');
 				break;
 			}
 		}
