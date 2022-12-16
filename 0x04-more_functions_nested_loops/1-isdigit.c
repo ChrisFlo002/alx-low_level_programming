@@ -1,9 +1,11 @@
 #include "main.h"
 
-/*
-*_isdigit - cheks is a digit
-*takes an int as param
-*return 1 if true, 0 if false
+/**
+* _isdigit - returns 1 if digit, 0 if not
+* @c: an int given by the main function
+*
+* Description: Uses headers to link and a nested loops to achieve goal
+* Return: see first line
 */
 int _isdigit(int c)
 {
