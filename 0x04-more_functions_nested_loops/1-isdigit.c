@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
-*function - cheks is a digit
+*_isdigit - cheks is a digit
 *takes an int as param
 *return 1 if true, 0 if false
 */
