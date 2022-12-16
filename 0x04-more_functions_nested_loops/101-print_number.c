@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 
 /**
 * print_number - outputs a number
@@ -19,18 +18,7 @@
 void print_number(int n)
 {
 	int x = n;
-	int digit;
-	int places = 1000000000;
 
-	if (n < 0)/* E */
-	{
-		x = -n;
-		_putchar('-');
-	}
-	else if (n == 0)/* A */
-		_putchar('0');
-	else
-	{
-		_putchar(n);
-	}
+	(char)n;
+	_putchar(n);
 }
