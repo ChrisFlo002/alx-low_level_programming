@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * _alcuadrado - give me the square root of a
  *
@@ -6,18 +6,18 @@
  * @corre: from 0 up looking for square always less than the half of the number
  * Return: if does not have square or corre if it find it
  */
-int _pow_recursion(int x, int y)
+int _alcuadrado(int corre, int n)
 {
-	if (x < 0)
+	if (corre < 0)
 		return (-1);
-	if (x == 1)
+	if (corre == 1)
 		return (1);
-	if (y > x / 2)
+	if (n > corre / 2)
 		return (-1);
-	if (x != y * y)
+	if (corre != n * n)
 		return (_alcuadrado(corre, n + 1));
-	if (x == y * y)
-		return (y);
+	if (corre == n * n)
+		return (n);
 	return (-1);
 }
 /**
