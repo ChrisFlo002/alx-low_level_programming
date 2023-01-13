@@ -1,0 +1,1 @@
+Static library's tasks
